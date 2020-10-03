@@ -59,11 +59,11 @@ body{
     
     
             .log-in:hover{
-             animation: btnLogin 1s ease-in-out 5ms forwards;
+             animation: btn-Login 1s ease-in-out 5ms forwards;
              
             }
     
-             @keyframes btnLogin{
+             @keyframes btn-Login{
                 from{
                     opacity: 0;
                     background-color: teal;
