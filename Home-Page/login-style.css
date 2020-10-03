@@ -65,14 +65,14 @@ body{
     
              @keyframes btn-Login{
                 from{
-                    opacity: 0;
-                    background-color: teal;
-                    transform: translateZ(50px);
+                    opacity: 1;
+                    background-color: #264d59;
+                    transform: scale(60px);
                 }
                 50%{
-                    opacity: 0.5;
-                    transform: translate(60px);
                     
+                    
+                    transform: scale(10px);
                     border-radius: 10px;
                 }
                 
