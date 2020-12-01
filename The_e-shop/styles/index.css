@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+section.clothes{
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    
+}
+
+.cloths{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 400px;
+    flex-basis: 300px;
+    margin: 15px;
+}
+
+.cloths h2{
+    text-align: center;
+}
+
+.cloths:hover{
+    cursor: pointer;
+}
+
+
+div#topmost-bar{
+display: flex;
+justify-content: flex-end;
+padding: 4px;
+background-color: black;
+
+}
+
+nav.navv{
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+div#logo{
+    font-size: 25px;
+    margin-left: 150px;
+    color: wheat;
+}
+
+div.nav-menu{
+    margin-top: 50px;
+}
+
+div.nav-menu a{
+    
+    margin-right: 100px;
+    color: black;
+    text-decoration: none;
+}
+
+
+button.butt-on{
+    margin: 0 90px 0 0;
+    border: none;
+    background: transparent;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+button.butt-on:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+img.prod{
+    width: 300px;
+    height: 50%;
+   
+}
