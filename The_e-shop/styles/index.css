@@ -2,33 +2,38 @@
     margin: 0;
     padding: 0;
 }
+
 header{
     position: sticky;
+    height: 100px;
     top: 0px;
-    background-color: white;
+    background-color: wheat;
+    z-index: 1;
+    box-shadow: 1px 0 3px #4e4e50;
 }
 
-section.clothes{
+section.products{
     display: flex;
     flex: row;
     flex-wrap: wrap;
     
+    
 }
 
-.cloths{
-    /* border: 1px solid black; */
-    width: 300px;
+.product{
     height: 400px;
     flex-basis: 300px;
     margin: 15px;
+    box-shadow: 1px 1px 2px #4e4e50, -1px -1px 2px #4e4e50;
+    
 }
 
-.cloths h2{
-    text-align: center;
-}
 
-.cloths:hover{
+.product:hover{
     cursor: pointer;
+    transition: 1ms linear;
+    transform: scale(1.03);
+
 }
 
 
@@ -37,7 +42,6 @@ display: flex;
 justify-content: flex-end;
 padding: 4px;
 background-color: black;
-
 }
 
 nav.navv{
@@ -45,14 +49,13 @@ nav.navv{
     list-style: none;
     text-transform: uppercase;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
 }
 
-div#logo{
-    font-size: 25px;
-    margin-left: 150px;
-    color: wheat;
+h1#logo{
+    font-size: 50px;
+    align-self: center;
+    margin: 20px 0 0 100px;
 }
 
 div.nav-menu{
@@ -60,30 +63,80 @@ div.nav-menu{
 }
 
 div.nav-menu a{
-    
     margin-right: 100px;
     color: black;
     text-decoration: none;
 }
 
-
-button.butt-on{
+.header-butt{
     margin: 0 90px 0 0;
     border: none;
     background: transparent;
     text-transform: uppercase;
     color: white;
-
 }
 
-button.butt-on:hover{
+.add-product{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    width: 100%;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.add-product:hover{
+    background-color: wheat;
+    color: rgb(8, 2, 46);
+    cursor: pointer;
+    height: 30px;
+    opacity: 1;
+}
+
+#deats{
+    text-align: center;  
+    height: 150px;
+    margin: 5px 0 0 0;
+    padding: 15px 0 0 0;
+    position: relative;
+   text-align: center;
+}
+
+span#lo-go{
+    text-transform: lowercase;
+}
+
+button.butt-on{
+    border: none;
+}
+
+button.header-butt:hover{
     text-decoration: underline;
     cursor: pointer;
 }
 
 
+h1#prod-title{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;  
+}
+
+
 img.prod{
     width: 300px;
-    height: 50%;
-   
+    height: 240px;
+    position: relative;
 }
+
+footer.foot-er{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+div#media-handles{
+    border: 1px solid black;
+}
+
