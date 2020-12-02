@@ -130,13 +130,29 @@ img.prod{
 }
 
 footer.foot-er{
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    background-color: wheat;
+  
 }
 
-div#media-handles{
-    border: 1px solid black;
+#foot-menu > a{
+    padding: 0 30px 0 0;
+    color: black;
+    text-decoration: none;
+} 
+
+.foot-er h4, div#media-handles a, #foot-menu {
+    padding: 10px 30px 10px 0;
+    color: black;
+    text-decoration: none;
+    
 }
+
+
+.foot-er > h4{
+    margin: 0 30px 0 30px;
+    font-weight: normal;
+}
+
 
