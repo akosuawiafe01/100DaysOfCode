@@ -66,6 +66,8 @@ div.nav-menu a{
     margin-right: 100px;
     color: black;
     text-decoration: none;
+    
+    
 }
 
 .header-butt{
@@ -83,13 +85,13 @@ div.nav-menu a{
     width: 100%;
     opacity: 0.5;
     text-transform: uppercase;
+    height: 30px;
 }
 
 .add-product:hover{
     background-color: wheat;
     color: rgb(8, 2, 46);
     cursor: pointer;
-    height: 30px;
     opacity: 1;
 }
 
@@ -136,13 +138,13 @@ footer.foot-er{
   
 }
 
-#foot-menu > a{
+#foot-menu > a, div#media-handles > a{
     padding: 0 30px 0 0;
     color: black;
     text-decoration: none;
 } 
 
-.foot-er h4, div#media-handles a, #foot-menu {
+.foot-er>h4, div#media-handles, #foot-menu {
     padding: 10px 30px 10px 0;
     color: black;
     text-decoration: none;
