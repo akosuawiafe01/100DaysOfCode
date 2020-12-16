@@ -45,6 +45,10 @@ div.nav-menu a{
     
 }
 
+.items{
+    border: 1px solid black;
+}
+
 
 footer.foot-er{
     display: flex;
